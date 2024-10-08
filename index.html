@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>JS Tag 10</title>
+</head>
+<body>
+    <div class="gameOver">
+        <h1>Game Over</h1>
+        <button id="restart">Restart</button>
+    </div>
+    <h1>Tetris</h1>
+    <div class="game">
+        <div class="info">
+        <audio src="Korobeiniki.mp3" loop></audio>
+        <p>Score: <span id="score">0</span></p>
+        <p>Level: <span id="level">1</span></p>
+        <p>Lines: <span id="lines">0</span></p>
+        <p>High Score: <span id="highScore">0</span></p>
+        <button id="start" class="btn">Start</button>
+        <button id="mute" class="btn">&#128263;</button>
+
+        <div class="icons"><img src="img/arrow-right-square.svg" style="rotate: 180deg;"  alt="left"> - move left</div>
+        
+        <div class="icons"><img src="img/arrow-right-square.svg"   alt="left"> - move right</div>
+        <div class="icons"><img src="img/arrow-right-square.svg" style="rotate: -90deg;"  alt="left"> - rotate</div>
+        <div class="icons"><img src="img/arrow-right-square.svg" style="rotate: 90deg;"  alt="left"> - move down</div>
+        
+    </div>
+    
+    <div class="playField">
+        
+    </div>
+    </div>
+    
+    
+</body>
+</html>
